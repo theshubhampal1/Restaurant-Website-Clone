@@ -1,0 +1,673 @@
+/* Project CSS Source Code by shubhampal.co.in */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+}
+
+nav>ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav>ul>li {
+    float: left;
+    margin: 26px 15px;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    text-decoration: underline 2px solid red;
+}
+
+nav>ul>li:first-child {
+    margin-left: 180px;
+}
+
+nav>ul>li:nth-child(7):hover {
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 40px;
+    width: 110px;
+    float: left;
+    margin: 15px 80px;
+}
+
+nav ul ul {
+    margin-top: 10px;
+    display: none;
+    list-style: none;
+}
+
+nav ul ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+nav ul ul li {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    background: white;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid grey;
+}
+
+#btn {
+    border-radius: 50px;
+    border-style: none;
+    background: red;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn1 {
+    height: 32px;
+    width: 120px;
+    margin: 18px 50px;
+    float: right;
+    margin: 18px 50px;
+}
+
+.btn2 {
+    height: 38px;
+    width: 150px;
+    margin: 0px 20px 0px 50px;
+}
+
+#first {
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #eeeeee;
+}
+
+.first {
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+#first1 {
+    padding: 160px 100px;
+    box-sizing: border-box;
+}
+
+#first2 {
+    padding: 0px 140px;
+    box-sizing: border-box;
+}
+
+.first-head {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.play {
+    border: 2px solid red;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 7px;
+    color: red;
+}
+
+.play-txt {
+    font-weight: bold;
+}
+
+#first1>a {
+    text-decoration: none;
+    color: black;
+}
+
+h5 {
+    color: grey;
+    text-align: center;
+    margin: 0px;
+}
+
+.heading2 {
+    color: grey;
+    text-align: center;
+    font-family: cursive;
+}
+
+.txt1 {
+    color: red;
+}
+
+#second {
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.second {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+#second1 {
+    height: 700px;
+    width: 60%;
+    padding: 0px 60px;
+    box-sizing: border-box;
+}
+
+#second2 {
+    height: 700px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+#second-1 {
+    height: 300px;
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    line-height: 26px;
+}
+
+#second-2 {
+    height: 400px;
+    width: 100%;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+}
+
+video {
+    height: 400px;
+    width: 550px;
+}
+
+.list {
+    line-height: 26px;
+}
+
+#third {
+    height: 480px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #eeeeee;
+    padding: 80px;
+    box-sizing: border-box;
+
+}
+
+.third {
+    height: 330px;
+    width: 20%;
+    float: left;
+    background: white;
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#third1 {
+    height: 330px;
+    width: 33%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    background: #ce1212;
+    float: left;
+    color: white;
+}
+
+#btn3 {
+    border-radius: 50px;
+    border-style: none;
+    background: red;
+    padding: 0px 15px;
+    margin: 0px 90px;
+    box-sizing: border-box;
+    height: 38px;
+    width: 150px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.second-head {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#icon {
+    height: 80px;
+    width: 80px;
+    background: rgb(255, 162, 162);
+    border-radius: 50px;
+    margin: 45px auto;
+    margin-bottom: 30px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    margin: 20px 20px;
+
+}
+
+.subhead {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.subpara {
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+}
+
+#nav2 {
+    margin: 0px 420px;
+}
+
+#ul-nav2>li>a {
+    color: grey;
+    text-decoration: underline 2px solid grey;
+}
+
+#ul-nav2>li>a:hover {
+    color: red;
+    text-decoration: underline 2px solid red;
+}
+
+.heading4 {
+    font-family: arial;
+    margin: 5px auto;
+    font-size: 30px;
+}
+
+#fourth {
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fourth {
+    height: 400px;
+    width: 100%;
+}
+
+.sub-fourth {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.subimg {
+    height: 250px;
+    width: 250px;
+    margin: 20px 140px;
+}
+
+.subimg1 {
+    height: 280px;
+    width: 280px;
+    margin: 0px 100px;
+}
+
+.subimg2 {
+    height: 230px;
+    width: 230px;
+    margin: 20px 130px;
+}
+
+.subimg5 {
+    margin: 20px 120px;
+}
+
+.subimg6 {
+    height: 230px;
+    width: 230px;
+    margin: 20px 130px;
+}
+
+.sub-heading {
+    text-align: center;
+    margin: 0px;
+}
+
+.sub-para {
+    text-align: center;
+}
+
+.sub-dollar {
+    text-align: center;
+    margin: 0px;
+    color: red;
+    font-weight: bold;
+}
+
+#fifth {
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #eeeeee;
+    padding: 30px 150px;
+    color: grey;
+}
+
+hr {
+    width: 190px;
+    background: red;
+    border: 2px solid red;
+    transform: rotate(90deg);
+    position: relative;
+    top: 28%;
+    right: 52%;
+}
+
+.text1 {
+    color: red;
+    font-size: 60px;
+}
+
+.text2 {
+    color: black;
+    font-size: 16px;
+}
+
+.txt {
+    display: none;
+}
+
+#five {
+    background: #eeeeee;
+}
+
+.headings {
+    margin: 0px;
+    padding: 20px;
+}
+
+.headings1 {
+    margin: 0px;
+    margin-top: -35px;
+    color: black;
+}
+
+.rating {
+    height: 32px;
+    width: 110px;
+    margin: 5px;
+    transform: translate(-16px, -180px);
+}
+
+.plogo {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transform: translate(800px, -200px);
+    border: 5px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 100px;
+}
+
+.dots {
+    font-size: 100px;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    transform: translate(-150px, -175px);
+}
+
+.dots-red {
+    color: red;
+}
+
+#six {
+    min-height: 600px;
+    width: 100%;
+    background: grey;
+}
+
+.six {
+    min-height: 600px;
+    width: 33.33%;
+    float: left;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+
+.six1 {
+    background-image: url(Restaurant-Website/pic1.jpg);
+}
+
+.six2 {
+    background-image: url(Restaurant-Website/pic2.jpg);
+}
+
+.six3 {
+    background-image: url(Restaurant-Website/pic3.jpg);
+}
+
+.sub-six {
+    height: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    line-height: 18px;
+}
+
+.six-head1 {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.six-head2 {
+    margin: 0px;
+    font-size: 30px;
+    text-decoration: underline 2px solid red;
+}
+
+.dots1 {
+    font-size: 100px;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    transform: translateY(-70px);
+}
+
+#seven {
+    height: 900px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 60px;
+    background: #eeeeee;
+    color: grey;
+    box-sizing: border-box;
+}
+
+.seven {
+    height: 600px;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    margin: 0px 20px;
+}
+
+.headings3 {
+    margin: 0px;
+    color: black;
+}
+
+.seven-div {
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.sub-seven1 {
+    background-image: url(Restaurant-Website/chef1.jpg);
+}
+
+.sub-seven2 {
+    background-image: url(Restaurant-Website/chef2.jpg);
+}
+
+.sub-seven3 {
+    background-image: url(Restaurant-Website/chef3.jpg);
+}
+
+.sub-seven {
+    height: 200px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(148, 148, 148);
+}
+
+.seven-head {
+    color: black;
+}
+
+.seven-para {
+    color: #bebebe;
+}
+
+#eight {
+    height: 500px;
+    width: 100%;
+    padding: 0px 100px;
+    box-sizing: border-box;
+}
+
+#eight1 {
+    height: 500px;
+    width: 35%;
+    background: blue;
+    float: left;
+    background-image: url(Restaurant-Website/pic4.jpg);
+    background-size: 100% 100%;
+}
+
+#eight2 {
+    height: 500px;
+    width: 65%;
+    background: #eeeeee;
+    float: left;
+    padding: 70px 20px;
+    box-sizing: border-box;
+}
+
+input {
+    height: 50px;
+    width: 30%;
+    background: white;
+    margin: 0px 9px;
+    margin-top: 15px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+textarea {
+    resize: none;
+    margin-left: 9px;
+    margin-top: 15px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.btn-last {
+    margin-right: 280px;
+    height: 50px;
+    width: 200px;
+}
+
+#nine {
+    height: 500px;
+    width: 100%;
+    background: #eeeeee;
+    padding: 0px 120px;
+    box-sizing: border-box;
+}
+
+.slide {
+    height: 200px;
+    width: 18%;
+    background: white;
+    float: left;
+    margin-right: 15px;
+    background-size: 100% 100%;
+}
+
+#slide1 {
+    margin-left: 20px;
+    background-image: url(Restaurant-Website/rest1.jpg);
+}
+
+#slide2 {
+    background-image: url(Restaurant-Website/rest2.jpg);
+}
+
+#slide3 {
+    background-image: url(Restaurant-Website/rest3.jpg);
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+
+#slide4 {
+    background-image: url(Restaurant-Website/rest4.jpg);
+}
+
+#slide5 {
+    background-image: url(Restaurant-Website/rest5.jpg);
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */
